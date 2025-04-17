@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Tablica</h1>
+    <table border="1">
+        <form action="">
+        <tr>
+            <td>Ime:</td>
+            <td><input type="text" name="Ime"></td>
+        </tr>
+
+        <tr>
+            <td>Prije zime:</td>
+            <td><input type="text" name="Prezime"></td>
+        </tr>
+
+        <tr>
+            <td>Emajl:</th>
+            <td><input type="email" name="Emajl"></td>
+        </tr>
+
+        <tr>
+            <td>Država:</td>
+            <td>
+                <select name="Država" id="Država">
+                    <option value="Hr">Hrvatska</option>
+                    <option value="De">Hercegovina</option>
+                    <option value="I">Istra</option>
+                    <option value="M">Mars</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Spol:</td>
+            <td>
+                <input type="radio" name="Spol" value="M"> <label for="M">Muški</label>
+                <input type="radio" name="Spol" value="Z"> <label for="Ž">Ženski</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Zanima me:</td>
+            <td>
+                <input type="radio" name="zanima" value="plivanje"> Spavanje
+                <input type="radio" name="zanima" value="penjanje"> Zijevanje
+                <input type="radio" name="zanima" value="programiranje"> Ležanje
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <!-- umjesto input moze i button type="submit" value="Pošalji"-->
+                <input type="submit" value="Pošalji">
+        </tr>
+        </form>
+ 
+    </table>
+    
+    
+</body>
+</html>

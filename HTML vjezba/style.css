@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+    color: rgb(112, 39, 39);
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: rgb(231, 168, 113);
+    padding: 60px
+}
+
+main {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+title {
+    font-size: 2rem;
+    color: rgb(39, 112, 56);
+    padding: 60px;
+}
