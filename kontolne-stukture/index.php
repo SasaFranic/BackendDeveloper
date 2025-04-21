@@ -44,11 +44,11 @@
         echo '<hr>';
     
     ?>
-
+    
     <h2>Zadatak 2</h2>
     <hr>
     <?php
-        $dan = date ('N');
+        $dan = date ();
         echo 'Danas je ' . $dan . ' dan u tjednu. <br>';
        
         switch ($dan) {

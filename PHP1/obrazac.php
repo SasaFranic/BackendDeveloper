@@ -25,5 +25,5 @@
             <td><colspan="2"><input type="submit" value="Pošalji"></td>
         </tr>      
 
-    </from>
+    </form>
 </table>
