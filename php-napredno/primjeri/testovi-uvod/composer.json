@@ -1,5 +1,15 @@
 {
-    "require-dev": {
-        "phpunit/phpunit": "^12"
-    }
+    "name": "sasaf/testovi-uvod",
+    "autoload": {
+        "psr-4": {
+            "Sasaf\\TestoviUvod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sasa",
+            "email": "sasa.franic@gmail.com"
+        }
+    ],
+    "require": {}
 }
